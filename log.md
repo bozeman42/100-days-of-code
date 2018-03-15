@@ -38,13 +38,6 @@ I'm beginning to feel a little more comfortable with C#, but real comfort will h
 
 **Link to work:** [QR test code](https://github.com/bozeman42/qrtest)
 
-
-
-
-
-https://github.com/bozeman42/zotn/tree/feature-physical-qrcode-scanner
-
-
 <!-- 
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
