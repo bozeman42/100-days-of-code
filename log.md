@@ -1,3 +1,12 @@
+### Day 4: March 15, 2018
+
+**Today's Progress**: More work on ASP.NET MVC. Today *actually* working on MVC. Got a basic CRUD app working using a MemoryCache rather than a database. 
+
+**Thoughts:** A different world from an ExpressJS / Node.js backend. I'm very curious how you would integrate this with a front-end framework / library like Angular or React. I feel like there's got to be a way to make a REST API instead of this way of doing things. Well, WaysOfDoingThings++.
+
+**Link to work:** [ASP.NET MVC CRUD app](https://github.com/bozeman42/csharp-crud-basics)
+
+
 # 100 Days Of Code - Log
 
 ### Day 3: March 14, 2018
