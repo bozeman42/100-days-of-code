@@ -1,3 +1,6 @@
+# 100 Days Of Code - Log
+
+
 ### Day 5: March 16, 2018
 
 **Today's Progress**: In my zombie game project (all JavaScript, with AngularJS and ExpressJS and webpack) I rewrote the interface for the dedicated QR code scanner code so I can switch QR code reading methods between the dedicated scanner that produces keyboard input and the webcam-based scanner by changing a value in a config file. Pretty satisfying. I thought about how to do that when going through the OOP portion of the C# course. I also finalized the data structure for the project and the QR Codes for all of the game assets. The QR codes contain JSON objects which are read into the application to record events and check in. Now that the QR code format is finalized, we produced some prototypes that I can use for testing and development.
@@ -15,8 +18,6 @@
 
 **Link to work:** [ASP.NET MVC CRUD app](https://github.com/bozeman42/csharp-crud-basics)
 
-
-# 100 Days Of Code - Log
 
 ### Day 3: March 14, 2018
 
@@ -47,6 +48,7 @@ I'm beginning to feel a little more comfortable with C#, but real comfort will h
 **Thoughts:** Getting the QR code scanner to work as I desired took more effort than I anticipated, but that feels like one of the constants of development. Things usually take more effort than it appears.
 
 **Link to work:** [physical scanner branch of ZotN](https://github.com/bozeman42/zotn/tree/feature-physical-qrcode-scanner)
+
 
 ### Day 1: March 12, 2018
 
