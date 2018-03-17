@@ -1,3 +1,12 @@
+### Day 5: March 16, 2018
+
+**Today's Progress**: In my zombie game project (all JavaScript, with AngularJS and ExpressJS and webpack) I rewrote the interface for the dedicated QR code scanner code so I can switch QR code reading methods between the dedicated scanner that produces keyboard input and the webcam-based scanner by changing a value in a config file. Pretty satisfying. I thought about how to do that when going through the OOP portion of the C# course. I also finalized the data structure for the project and the QR Codes for all of the game assets. The QR codes contain JSON objects which are read into the application to record events and check in. Now that the QR code format is finalized, we produced some prototypes that I can use for testing and development.
+
+**Thoughts:** A lot of the planning for a project is in developing the data structures that are needed. There's often multiple technically valid ways of structuring your data, but some ways are easier to utilize and extend.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Day 4: March 15, 2018
 
 **Today's Progress**: More work on ASP.NET MVC. Today *actually* working on MVC. Got a basic CRUD app working using a MemoryCache rather than a database. 
