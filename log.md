@@ -1,6 +1,39 @@
 # 100 Days Of Code - Log
 
 
+### Day 6: March 17, 2018
+
+**Today's Progress**: I was beginning to write another callback function for taking scanner input in Zombies of the North when I realized I was writing code to validate that the input was a JSON object *again*. I didn't want to keep writing this code over and over so I wrote a kind of 'middleware' validation function that would take a callback and return a function that would take the scanner content, confirm that it was valid JSON, then call the callback with the object produced by parsing the JSON. If the scanner output is not a JSON object it will report invalid input. This way my callbacks can assume that they are receiving an object and they only need to validate that the correct type of object was passed.
+
+```JavaScript
+  validateAndParseJSON(callback) {
+    const vm = this;
+    return function(content) {
+      if (vm.isJSON(content)) {
+        callback(JSON.parse(content));
+      }
+    }
+  }
+
+  
+  isJSON(str) {
+    try {
+      JSON.parse(str);
+      return true;
+    } catch (error) {
+      console.error(error);
+      return false;
+    }
+  }
+```
+
+I also brought the Player class up to date with the full data structure for players in the database, and wrote routes that retrieve data for all registered assets in the game. Up next for this project is writing the asset registration controller and service so I can begin scanning the prototypes into the system.
+
+**Thoughts:** Learning principles of coding is one thing, recognizing an opportunity to apply those principles is another. Today was brought to you by **DRY**: Don't Repeat Yourself.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/tree/feature-asset-registration)
+
+
 ### Day 5: March 16, 2018
 
 **Today's Progress**: In my zombie game project (all JavaScript, with AngularJS and ExpressJS and webpack) I rewrote the interface for the dedicated QR code scanner code so I can switch QR code reading methods between the dedicated scanner that produces keyboard input and the webcam-based scanner by changing a value in a config file. Pretty satisfying. I thought about how to do that when going through the OOP portion of the C# course. I also finalized the data structure for the project and the QR Codes for all of the game assets. The QR codes contain JSON objects which are read into the application to record events and check in. Now that the QR code format is finalized, we produced some prototypes that I can use for testing and development.
