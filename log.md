@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Day 7: March 18, 2018
+
+**Today's Progress**: Main progress is that I finished asset registration and scanned all assets into the database. Woo! I also wrote a visual indicator to let the user know that a scan has been registered. No particularily interesting concepts added, just getting the work done.
+
+**Thoughts:** It was super fun scanning in all of the assets once registration was working. 
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Day 6: March 17, 2018
 
 **Today's Progress**: I was beginning to write another callback function for taking scanner input in Zombies of the North when I realized I was writing code to validate that the input was a JSON object *again*. I didn't want to keep writing this code over and over so I wrote a kind of 'middleware' validation function that would take a callback and return a function that would take the scanner content, confirm that it was valid JSON, then call the callback with the object produced by parsing the JSON. If the scanner output is not a JSON object it will report invalid input. This way my callbacks can assume that they are receiving an object and they only need to validate that the correct type of object was passed.
