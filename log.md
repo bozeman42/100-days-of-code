@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Day 8: March 19, 2018
+
+**Today's Progress**: I've come to realize that I would like a lot more of the data processing and logic to occur on the server. I did some coding preparation for this, but also did a lot of work writing flow-charts and plans for how I want the data to flow. Mostly I want the client to do is check that the data format of a scanned asset is correct, then pass that assets information to the server and proceed to request the next asset. Especially in terms of a game I want the logic - faction assignment being the thing that triggered this realization - to take place on the server. Also as a test run I tried using a raspberry pi to host only the database. It worked quite well! I think I will use a raspberry pi to host the database when we roll it out.
+
+**Thoughts:** I still have a lot to learn when it comes to fully planning a project. I've never thought 'I wish I would have planned less' when working on a project. I think my next work on the project should be to finish fully flushing out the plan. Actually do break it into pieces.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/). Check branches for recent work.
+
+
 ### Day 7: March 18, 2018
 
 **Today's Progress**: Main progress is that I finished asset registration and scanned all assets into the database. Woo! I also wrote a visual indicator to let the user know that a scan has been registered. No particularily interesting concepts added, just getting the work done.
