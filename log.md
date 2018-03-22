@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Days 9-10: March 20-21, 2018
+
+**Today's Progress**: I continued work on new player registration. It's working a lot better than it was previously. I think the remaining step will be completed when I get to the 'shop' portion of the project. New players will be sent to the shop and compelled to register three bullets/bites.
+
+**Thoughts:** I think I've improved the architecture a bit at least. I had some tough times emotionally the past couple days as I'm not great at the job hunt and that's causing a lot of stress. I'm going to start a new approach on that tomorrow and check in with a place where I interviewed last week. This evening I had coffee with a fellow I met at a Jr. Developer meetup. He's a C#/.NET developer and wants to try collaborating on a project. I'll have to brainstorm for projects to work on. I would invite him to work on ZotN, but we might sell it and I cannot pay him.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/). Check branches for recent work.
+
+
 ### Day 8: March 19, 2018
 
 **Today's Progress**: I've come to realize that I would like a lot more of the data processing and logic to occur on the server. I did some coding preparation for this, but also did a lot of work writing flow-charts and plans for how I want the data to flow. Mostly I want the client to do is check that the data format of a scanned asset is correct, then pass that assets information to the server and proceed to request the next asset. Especially in terms of a game I want the logic - faction assignment being the thing that triggered this realization - to take place on the server. Also as a test run I tried using a raspberry pi to host only the database. It worked quite well! I think I will use a raspberry pi to host the database when we roll it out.
@@ -108,24 +117,3 @@ I'm beginning to feel a little more comfortable with C#, but real comfort will h
 **Thoughts:** The time based method is *close* to being what I want, but I am having difficulty figuring out how to prevent text from showing up when scanned, but allowing keyboard input.
 
 **Link to work:** [QR test code](https://github.com/bozeman42/qrtest)
-
-<!-- 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
