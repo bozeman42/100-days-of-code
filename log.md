@@ -18,6 +18,13 @@ class Triangle {
 }
 ```
 
+You would then be able to access the computed area of the triangle like so.
+
+```JavaScript
+let triangle = new Triangle(3,8);
+console.log( triangle.area ); // 12
+```
+
 In ZotN an example of the usage is to assign the appropriate faction icon as a part of setting the faction of a player.
 
 **Thoughts:** I'm learning a lot while making this project. I am looking forward to having a job so I can have the benefit of learning from more experienced developers in addition to my own research.
