@@ -1,6 +1,30 @@
 # 100 Days Of Code - Log
 
 
+### Days 11-12: March 22-23, 2018
+
+**Today's Progress**: Reworked how data flowed in ZotN's kill controller. Also learned `get` and `set` syntax for making an improved class interface. It allows you to create methods that are called when you use the property access and assignment syntax. For example:
+
+```JavaScript
+class Triangle {
+  constructor(width,height){
+    this.width = width;
+    this.height = height;
+  }
+  
+  get area() {
+    return (this.width * this.height) / 2;
+  }
+}
+```
+
+In ZotN an example of the usage is to assign the appropriate faction icon as a part of setting the faction of a player.
+
+**Thoughts:** I'm learning a lot while making this project. I am looking forward to having a job so I can have the benefit of learning from more experienced developers in addition to my own research.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Days 9-10: March 20-21, 2018
 
 **Today's Progress**: I continued work on new player registration. It's working a lot better than it was previously. I think the remaining step will be completed when I get to the 'shop' portion of the project. New players will be sent to the shop and compelled to register three bullets/bites.
