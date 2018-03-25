@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Days 13: March 24, 2018
+
+**Today's Progress**: I found a bug that would show up if you tried registering two players in one 'load' of the page. When you tried to input the nickname of the second player you would be unable to enter text in the input box. This was due to event listeners not being properly removed when using navigation buttons. I was attempting to do that, but I wasn't waiting for the process to properly complete before changing the view, and with that, adding another scanner + event listeners. I was able to resolve the issue by placing the navigation code in a `.then` after the stop command is given to the scanner service.
+
+**Thoughts:** Not much other than that there are a lot of things to keep in mind.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Days 11-12: March 22-23, 2018
 
 **Today's Progress**: Reworked how data flowed in ZotN's kill controller. Also learned `get` and `set` syntax for making an improved class interface. It allows you to create methods that are called when you use the property access and assignment syntax. For example:
