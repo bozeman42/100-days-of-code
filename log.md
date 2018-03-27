@@ -1,6 +1,24 @@
 # 100 Days Of Code - Log
 
 
+### Day 15: March 26, 2018
+
+**Today's Progress**: Worked on the next controller in ZotN: reporting if you've been killed. You are asked if you've been killed, then if will ask you to scan any bullets or bites that you received. I also tried adding a new method for restarting the scanner to the scanner service. I think it should work better and also I won't have to write a new reset function in every new controller that uses the scanner. I will give it more thorough testing soon. I noticed some slight differences in functionality between the webcam scanner and dedicated scanner so I made an effort to fix that. I had to make the webcam scanner extend the EventEmitter class so I could use addListener directly on the class as I did with the dedicated scanner.
+
+**Thoughts:** Tired today but got some good work done.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
+### Day 14: March 25, 2018
+
+**Today's Progress**: Worked on some game logic. When you report kills, you are granted XP, Credits, and Score. Also the player ID is removed from the faction lanyard of your victim (they will need to collect a new lanyard the next time they check in).
+
+**Thoughts:** I enjoyed getting to work with slightly more involved logic on the server. Multiple database queries in one request.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Days 13: March 24, 2018
 
 **Today's Progress**: I found a bug that would show up if you tried registering two players in one 'load' of the page. When you tried to input the nickname of the second player you would be unable to enter text in the input box. This was due to event listeners not being properly removed when using navigation buttons. I was attempting to do that, but I wasn't waiting for the process to properly complete before changing the view, and with that, adding another scanner + event listeners. I was able to resolve the issue by placing the navigation code in a `.then` after the stop command is given to the scanner service.
