@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Day 16: March 27, 2018
+
+**Today's Progress**: Today I worked on the process of scanning in any bullets / bites received and granting the appropriate players credits and points. I learned how to include multiple queries in a single transaction with node pg. Very useful! Next I will need to write leveling up and exchanging lanyards for level up or turning to zombies.
+
+**Thoughts:** Today was productive and I learned some new things, so I feel pretty good about it.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Day 15: March 26, 2018
 
 **Today's Progress**: Worked on the next controller in ZotN: reporting if you've been killed. You are asked if you've been killed, then if will ask you to scan any bullets or bites that you received. I also tried adding a new method for restarting the scanner to the scanner service. I think it should work better and also I won't have to write a new reset function in every new controller that uses the scanner. I will give it more thorough testing soon. I noticed some slight differences in functionality between the webcam scanner and dedicated scanner so I made an effort to fix that. I had to make the webcam scanner extend the EventEmitter class so I could use addListener directly on the class as I did with the dedicated scanner.
