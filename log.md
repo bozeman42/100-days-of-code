@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
 
+### Day 17: March 28, 2018
+
+**Today's Progress**: Working on [Zombies of the North](https://github.com/bozeman42/zotn/). Today I wrote the code that levels up a player. It went pretty smoothly. My initial thought was doing it in a series of several queries to the database, but then I realized I can pull all of the information I need in one query, and then post the changes in one more query. Much more straightforward. I still need to write the code for having the player exchange for their new lanyard and turning killed hunters into zombies.
+
+**Thoughts:** I'm not sure how I feel about the flow of the 'death controller'. I think I need to show the current state of the project to the other (non-programmer) folks on the team to get some comments and make sure everything is headed in the right direction.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+
+
 ### Day 16: March 27, 2018
 
 **Today's Progress**:
