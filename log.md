@@ -1,4 +1,5 @@
 # 100 Days Of Code - Log
+---
 
 
 ### Day 17: March 28, 2018
@@ -8,6 +9,7 @@
 **Thoughts:** I'm not sure how I feel about the flow of the 'death controller'. I think I need to show the current state of the project to the other (non-programmer) folks on the team to get some comments and make sure everything is headed in the right direction.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Day 16: March 27, 2018
@@ -38,6 +40,7 @@ Next I will need to write leveling up and exchanging lanyards for level up or tu
 **Thoughts:** Today was productive and I learned some new things, so I feel pretty good about it.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Day 15: March 26, 2018
