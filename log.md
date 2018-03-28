@@ -191,7 +191,7 @@ I also brought the Player class up to date with the full data structure for play
 ### Day 3: March 14, 2018
 
 **Today's Progress**: I forgot my QR code scanner at home, so I decided to dive into a [Udemy course on C#, ASP.NET MVC](https://www.udemy.com/better-web-development-pro-techniques-for-success/learn/v4/overview). I got through the portion that was a C# primer and a sort of intro to OOP principles. They went through making a number guessing game, but I mostly didn't pay attention to how he built it and used it to experiment a bit. I tried to use the advice given in a talk I watched at DevFest titled "How to write code that reads like poetry." It certainly makes the main game loop understandable:
-```C#
+```
         public static void Main(string[] args)
         {
             Random rand = new Random();
