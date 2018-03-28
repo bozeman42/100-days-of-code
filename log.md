@@ -4,7 +4,9 @@
 ### Day 16: March 27, 2018
 
 **Today's Progress**:
+
 Project: [Zombies of the North](https://github.com/bozeman42/zotn/)
+
 Today I worked on the process of scanning in any bullets / bites received and granting the appropriate players credits and points. I learned how to include multiple queries in a single transaction with node pg.
 
 If you have a pool set up for pg you can use multiple `client.query(queryText)` calls before closing the connection and you can make these queries [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) by using `BEGIN TRANSACTION;` and `COMMIT;` like so:
