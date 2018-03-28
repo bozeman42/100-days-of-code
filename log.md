@@ -50,6 +50,7 @@ Next I will need to write leveling up and exchanging lanyards for level up or tu
 **Thoughts:** Tired today but got some good work done.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Day 14: March 25, 2018
@@ -59,6 +60,7 @@ Next I will need to write leveling up and exchanging lanyards for level up or tu
 **Thoughts:** I enjoyed getting to work with slightly more involved logic on the server. Multiple database queries in one request.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Days 13: March 24, 2018
@@ -68,6 +70,7 @@ Next I will need to write leveling up and exchanging lanyards for level up or tu
 **Thoughts:** Not much other than that there are a lot of things to keep in mind.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Days 11-12: March 22-23, 2018
@@ -99,6 +102,7 @@ In ZotN an example of the usage is to assign the appropriate faction icon as a p
 **Thoughts:** I'm learning a lot while making this project. I am looking forward to having a job so I can have the benefit of learning from more experienced developers in addition to my own research.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Days 9-10: March 20-21, 2018
@@ -108,6 +112,7 @@ In ZotN an example of the usage is to assign the appropriate faction icon as a p
 **Thoughts:** I think I've improved the architecture a bit at least. I had some tough times emotionally the past couple days as I'm not great at the job hunt and that's causing a lot of stress. I'm going to start a new approach on that tomorrow and check in with a place where I interviewed last week. This evening I had coffee with a fellow I met at a Jr. Developer meetup. He's a C#/.NET developer and wants to try collaborating on a project. I'll have to brainstorm for projects to work on. I would invite him to work on ZotN, but we might sell it and I cannot pay him.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/). Check branches for recent work.
+***
 
 
 ### Day 8: March 19, 2018
@@ -117,6 +122,7 @@ In ZotN an example of the usage is to assign the appropriate faction icon as a p
 **Thoughts:** I still have a lot to learn when it comes to fully planning a project. I've never thought 'I wish I would have planned less' when working on a project. I think my next work on the project should be to finish fully flushing out the plan. Actually do break it into pieces.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/). Check branches for recent work.
+***
 
 
 ### Day 7: March 18, 2018
@@ -126,6 +132,7 @@ In ZotN an example of the usage is to assign the appropriate faction icon as a p
 **Thoughts:** It was super fun scanning in all of the assets once registration was working. 
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
 
 
 ### Day 6: March 17, 2018
@@ -159,6 +166,7 @@ I also brought the Player class up to date with the full data structure for play
 **Thoughts:** Learning principles of coding is one thing, recognizing an opportunity to apply those principles is another. Today was brought to you by **DRY**: Don't Repeat Yourself.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/tree/feature-asset-registration)
+***
 
 
 ### Day 5: March 16, 2018
@@ -168,7 +176,7 @@ I also brought the Player class up to date with the full data structure for play
 **Thoughts:** A lot of the planning for a project is in developing the data structures that are needed. There's often multiple technically valid ways of structuring your data, but some ways are easier to utilize and extend.
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
-
+***
 
 ### Day 4: March 15, 2018
 
@@ -177,6 +185,7 @@ I also brought the Player class up to date with the full data structure for play
 **Thoughts:** A different world from an ExpressJS / Node.js backend. I'm very curious how you would integrate this with a front-end framework / library like Angular or React. I feel like there's got to be a way to make a REST API instead of this way of doing things. Well, WaysOfDoingThings++.
 
 **Link to work:** [ASP.NET MVC CRUD app](https://github.com/bozeman42/csharp-crud-basics)
+***
 
 
 ### Day 3: March 14, 2018
@@ -199,7 +208,7 @@ I'm beginning to feel a little more comfortable with C#, but real comfort will h
 **Thoughts:** Flew through the "easy" parts of this course. MVC looks like a bit of a bear, though! Got to work hard!
 
 **Link to work:** [number guessing game.](https://github.com/bozeman42/csharp-number-guessing-game)
-
+***
 
 ### Day 2: March 13, 2018
 
@@ -208,6 +217,7 @@ I'm beginning to feel a little more comfortable with C#, but real comfort will h
 **Thoughts:** Getting the QR code scanner to work as I desired took more effort than I anticipated, but that feels like one of the constants of development. Things usually take more effort than it appears.
 
 **Link to work:** [physical scanner branch of ZotN](https://github.com/bozeman42/zotn/tree/feature-physical-qrcode-scanner)
+***
 
 
 ### Day 1: March 12, 2018
