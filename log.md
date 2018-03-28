@@ -3,7 +3,24 @@
 
 ### Day 16: March 27, 2018
 
-**Today's Progress**: Today I worked on the process of scanning in any bullets / bites received and granting the appropriate players credits and points. I learned how to include multiple queries in a single transaction with node pg. Very useful! Next I will need to write leveling up and exchanging lanyards for level up or turning to zombies.
+**Today's Progress**: Today I worked on the process of scanning in any bullets / bites received and granting the appropriate players credits and points. I learned how to include multiple queries in a single transaction with node pg.
+
+If you have a pool set up for pg you can use multiple `client.query(queryText)` calls before closing the connection and you can make these queries [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) by using `BEGIN TRANSACTION;` and `COMMIT;` like so:
+```JavaScript
+
+...
+
+client.query(`BEGIN TRANSACTION;`);
+client.query(`UPDATE table1 SET column1 = value WHERE id = 1;`);
+client.query(`UPDATE table2 SET column2 = value2 WHERE id = 1;`);
+client.query(`COMMIT;`, resultCallback(queryError,result){ ... } );
+
+...
+
+```
+This way, if any of the queries within the transaction fail, all changes are rolled back and no changes are made. Very useful!
+
+Next I will need to write leveling up and exchanging lanyards for level up or turning to zombies.
 
 **Thoughts:** Today was productive and I learned some new things, so I feel pretty good about it.
 
