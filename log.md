@@ -12,7 +12,7 @@ I think the next logical step is to bring the emitter into the logic that determ
 
 **Thoughts:** Learned a lot today. Really liking the common emitter pattern. We'll see how it works out!
 
-**Link to work:** [Zombies of the North:: react edition](https://github.com/bozeman42/zotn-react/)
+**Link to work:** [Zombies of the North: react edition](https://github.com/bozeman42/zotn-react/)
 ***
 
 
