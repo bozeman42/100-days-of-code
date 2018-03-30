@@ -2,6 +2,20 @@
 ---
 
 
+### Day 18: March 29, 2018
+
+**Today's Progress**: Today I wanted to focus on learning something new, so I decided to see how far I could get porting Zombies of the North into a React application. I got farther along than I anticipated. It was a really good React refresh and I also learned some things that will be useful whether in react or elsewhere. I just copied the server portion directly from the AngularJS version. It's a REST API so that shoudn't really need to change. I was able to get the player list displaying on the player select screen, and I got the scanner working.
+
+One problem I had which had what I think is an elegant solution is that I have a scan indicator component that I wanted to turn green briefly when a scan occurs. The Scanner class in an interface that creates an instance of one of two different scanner types (webcam or a dedicated scanner that looks like HID input). The scan events are initiated from these internal scanner instances and the Scanner class listens for these events and passes the scanned input to a callback. Instead of trying to get the scan indicator to pry into the inner workings of the Scanner class, I added a common EventEmitter object and imported that EventEmitter into both the Scanner class and the scan indicator. The Scanner class receives the scan event from the internal components and then emits a scan event from the common EventEmitter. The scan indicator then can detect the event and turn green.
+
+I think the next logical step is to bring the emitter into the logic that determines if the scan is valid or not and emit 'good-scan' 'bad-scan' events instead of just using the Scanner's 'scan' events to indicate what's going on. Then I can provide some feedback as to whether the data was valid rather than just showing that the scanner has some output.
+
+**Thoughts:** Learned a lot today. Really liking the common emitter pattern. We'll see how it works out!
+
+**Link to work:** [Zombies of the North:: react edition](https://github.com/bozeman42/zotn-react/)
+***
+
+
 ### Day 17: March 28, 2018
 
 **Today's Progress**: Working on [Zombies of the North](https://github.com/bozeman42/zotn/). Today I wrote the code that levels up a player. It went pretty smoothly. My initial thought was doing it in a series of several queries to the database, but then I realized I can pull all of the information I need in one query, and then post the changes in one more query. Much more straightforward. I still need to write the code for having the player exchange for their new lanyard and turning killed hunters into zombies.
