@@ -2,6 +2,15 @@
 ---
 
 
+### Day 19-20: March 30-31, 2018
+
+**Today's Progress**: I brought some of the things I learned in the React experiment into my AngularJS version of ZotN. I made the scanning indicator work on the common EventEmitter pattern and implemented a good-scan/bad-scan for the player select screen. I created a player-info component to use wherever I want to display player information. Just add a Player object and the information is displayed! To make things a little smoother I added 'concurrently' to the project so I can run the webpack build and my server at the same time with one terminal command. The game now displays the player that bit you if you scan a bite card on the death controller. I feel like I'm procrastinating on writing the logic for exchanging lanyards when you level up or are turned into a zombie. I need to write down a good plan of action for that and get moving.
+
+**Thoughts:** It was kind of hard fitting in the time on the 31st. From when I woke up to late at night my time was in the hands of other people. 
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
+***
+
 ### Day 18: March 29, 2018
 
 **Today's Progress**: Today I wanted to focus on learning something new, so I decided to see how far I could get porting Zombies of the North into a React application. I got farther along than I anticipated. It was a really good React refresh and I also learned some things that will be useful whether in react or elsewhere. I just copied the server portion directly from the AngularJS version. It's a REST API so that shoudn't really need to change. I was able to get the player list displaying on the player select screen, and I got the scanner working.
