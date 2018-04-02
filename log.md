@@ -2,6 +2,18 @@
 ---
 
 
+### Day 21: April 1, 2018
+
+**Today's Progress**: Today I updated my copy of a group project that was written in a way that is time sensitive. It checks the current date and tries to get data from the previous quarter. This is a portfolio piece, but it is not getting new data so it was no longer functioning properly. I wrote a workaround for this issue by coding in a date last December to the program. How I would *actually* fix it if I were to continue work on this project would be to have it check the database to see what the most recent report was and work off of that data.
+
+I also did a bit of work on ZotN. My current problem is mostly logistical as it involves determining if a player needs to exchange an asset or just needs a new asset, and then performing the exchange. Trying to figure out what the best order of events would be for that exchange feels more awkward than I anticipated.
+
+**Thoughts:** 
+
+**Link to work:** [Cushman & Wakefield project](https://github.com/bozeman42/prime-teamcw/) hosted [here](https://lit-spire-97387.herokuapp.com/#/home). It's on the free tier of Heroku so it will take a bit to load the first time.
+***
+
+
 ### Day 19-20: March 30-31, 2018
 
 **Today's Progress**: I brought some of the things I learned in the React experiment into my AngularJS version of ZotN. I made the scanning indicator work on the common EventEmitter pattern and implemented a good-scan/bad-scan for the player select screen. I created a player-info component to use wherever I want to display player information. Just add a Player object and the information is displayed! To make things a little smoother I added 'concurrently' to the project so I can run the webpack build and my server at the same time with one terminal command. The game now displays the player that bit you if you scan a bite card on the death controller. I feel like I'm procrastinating on writing the logic for exchanging lanyards when you level up or are turned into a zombie. I need to write down a good plan of action for that and get moving.
@@ -10,6 +22,7 @@
 
 **Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn/)
 ***
+
 
 ### Day 18: March 29, 2018
 
