@@ -2,6 +2,33 @@
 ---
 
 
+### Day 25: April 5, 2018
+
+**Today's Progress**: Today I finally got the lanyard exchange piece of ZotN working. Zombies gain experience on death and Hunters... turn into zombies! It doesn't handle error as cleanly as I would like, but I will work on that in the future. 
+
+**Thoughts:** After the react/react-redux lectures I attended I am kind of pining for the state management of react for this project.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn)
+
+
+### Day 23-24: April 3-4, 2018
+
+**Today's Progress**: I attended some lectures about react-redux and redux-saga. I had taken a udemy course on react-redux, and I heard of sagas at a react meetup. The udemy course introduced redux all at once and it was very confusing initially. After a while I started to get the hang of it. This lecture was massively superior. Redux was introduced piece by piece so that it was clear what each piece was doing. The sagas lecture was also great. I believe I will use sagas in any project where I use redux in the future.
+
+**Thoughts:** Thank you to [Luke Schlangen @lukeschlangen](https://twitter.com/lukeschlangen) at [Prime Digital Academy](https://primeacademy.io/) for the opportunity to beta test your lectures!
+
+**Link to work:** in private repo
+
+
+### Day 22: April 2, 2018
+
+**Today's Progress**: Today I went through some react.js prep work for some lectures I am going to attend about react-redux and redux-saga. The material was very well put together. Learned a lot about how the spread operator works (`...myArrayOrObject`) and using a function that takes in a property name to return a change handling function for that property so you can write it once and handle all input changes for many inputs.
+
+**Thoughts:** I've worked on learning react before, but I am once again impressed with the incredible instruction at [Prime Digital Academy](https://primeacademy.io/). They break things down and introduce concepts in an order so that every piece makes sense.
+
+**Link to work:** in private repo
+
+
 ### Day 21: April 1, 2018
 
 **Today's Progress**: Today I updated my copy of a group project that was written in a way that is time sensitive. It checks the current date and tries to get data from the previous quarter. This is a portfolio piece, but it is not getting new data so it was no longer functioning properly. I wrote a workaround for this issue by coding in a date last December to the program. How I would *actually* fix it if I were to continue work on this project would be to have it check the database to see what the most recent report was and work off of that data.
