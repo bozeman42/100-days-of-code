@@ -4,6 +4,15 @@
 
 ### Day 25: April 5, 2018
 
+**Today's Progress**: Started work on the shop in ZotN. 
+
+**Thoughts:** Got started way to late today. Not very productive at all.
+
+**Link to work:** [Zombies of the North](https://github.com/bozeman42/zotn)
+
+
+### Day 25: April 5, 2018
+
 **Today's Progress**: Today I finally got the lanyard exchange piece of ZotN working. Zombies gain experience on death and Hunters... turn into zombies! It doesn't handle error as cleanly as I would like, but I will work on that in the future. 
 
 **Thoughts:** After the react/react-redux lectures I attended I am kind of pining for the state management of react for this project.
