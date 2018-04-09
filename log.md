@@ -6,7 +6,7 @@
 
 **Today's Progress**: Did the first two projects in [JavaScript30](https://javascript30.com/). The drumkit I was mostly able to recreate after only seeing the appearance and functionality of the project. I then watched the video to see if there was anything I liked about the way he did the project. I learned about 'transitionend' events so you can run code when a CSS transition is complete. Pretty cool! I also did the CSS clock, which was cool. It was good to see some creative use of CSS. Also a specific thing I learned about was cubic bezier curves for transition timing functions. [This site](http://cubic-bezier.com/#.17,.67,.83,.67) was very useful in learning how to visualize the meaning of the arguments to the `cubic-bezier(x1,y1,x2,y2)` function.
 
-Additionally I made good on my threat to make a device (Raspberry Pi with a wee bit of wire, a resistor and an LED) that is just a light that blinks when the US House of Representatives is in session. It's sitting on the arm of my couch.
+Additionally I made good on my threat to make a device (Raspberry Pi with a wee bit of wire, a resistor and an LED) that is just a light that blinks when the US House of Representatives is in session using the API at https://in-session.house.gov/. It's sitting on the arm of my couch.
 
 **Thoughts:** While the javascript has been fairly trivial in JavaScript30 so far, there have been some good kernels of knowledge in each project so far. I feel like it's worth my time.
 
