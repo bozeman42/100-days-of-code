@@ -2,6 +2,17 @@
 ---
 
 
+### Day 30: April 10, 2018
+
+**Today's Progress**: I did some more JavaScript30 today. I did the 'array cardio 1' which was going over some array methods. I felt pretty confident about that stuff. The only thing I can think of that I learned about from that video was `console.table(someObject)` It formats the object being logged as a table! Looks great!
+
+I also worked on the 'Flex panels image gallery'. This one I do feel like I learned a lot. I really like the projects that have a strong CSS element as I feel that is one of my weaker areas. One improvement I made to this project over where he ends up in his video is that I added a test to the handler for the `transitionend` events that checks to see if the parent panel finished opening or closing so that the behavior remains consistent even if the user clicks the panel again before the initial transition completes.
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
 ### Day 29: April 9, 2018
 
 **Today's Progress**: Fixed a bug in my solo project from my code bootcamp where a search with no results would cause an alert to pop up. I still need to add a notification if there were no results. I have sweet alerts installed so I could use that.
