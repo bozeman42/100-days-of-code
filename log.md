@@ -8,7 +8,7 @@
 
 It works as ExpressJS middleware and takes advantage of the express-session module. Once the user has been authenticated, the server creates a session with a session ID that is stored in a cookie on the client machine. While this session is active, your application doesn't need to identify which user is making requests, as this information is associated with the session on the server and is attached to the request by the passport middleware, so you can get the username on `req.user.username` for instance. I will go into more detail about the setup in a blog post, I think.
 
-**Thoughts:** I am glad I did this. I will have to encorporate encryption before using this in earnest.
+**Thoughts:** I am glad I did this. I will have to encorporate encryption before using this in earnest. **edit:** I added encryption. bcrypt is pretty easy to use!
 
 **Link to work:** https://github.com/bozeman42/passport-sandbox
 
