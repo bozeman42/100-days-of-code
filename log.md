@@ -2,6 +2,17 @@
 ---
 
 
+### Day 31-32: April 11-12, 2018
+
+**Today's Progress**: I wanted to try setting up passport.js from scratch using the Local Strategy (username and password, maintained by your server). I have used passport before, but I used a starter project that had it already set up, and I didn't have an understanding of what was going on at the time. I spent a bunch of time yesterday with [the docs](http://www.passportjs.org/docs/authenticate/) and started to set up a repository. I finished it up with a very small angular app to test it out. It's pretty neat!
+
+It works as ExpressJS middleware and takes advantage of the express-session module. Once the user has been authenticated, the server creates a session with a session ID that is stored in a cookie on the client machine. While this session is active, your application doesn't need to identify which user is making requests, as this information is associated with the session on the server and is attached to the request by the passport middleware, so you can get the username on `req.user.username` for instance. I will go into more detail about the setup in a blog post, I think.
+
+**Thoughts:** I am glad I did this. I will have to encorporate encryption before using this in earnest.
+
+**Link to work:** https://github.com/bozeman42/passport-sandbox
+
+
 ### Day 30: April 10, 2018
 
 **Today's Progress**: I did some more JavaScript30 today. I did the 'array cardio 1' which was going over some array methods. I felt pretty confident about that stuff. The only thing I can think of that I learned about from that video was `console.table(someObject)` It formats the object being logged as a table! Looks great!
