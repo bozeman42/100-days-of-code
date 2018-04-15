@@ -2,6 +2,15 @@
 ---
 
 
+### Day 34: April 14, 2018
+
+**Today's Progress**: I attended [Minnebar13](https://minnestar.org/minnebar/) and saw a talk on Docker. I was then successfully able to set up a container for a node app.
+
+**Thoughts:** 
+
+**Link to work:** 
+
+
 ### Day 33: April 13, 2018
 
 **Today's Progress**: I worked on the shop for ZotN a bit.
