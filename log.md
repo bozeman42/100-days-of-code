@@ -2,6 +2,15 @@
 ---
 
 
+### Day 33: April 13, 2018
+
+**Today's Progress**: I worked on the shop for ZotN a bit.
+
+**Thoughts:** 
+
+**Link to work:** https://github.com/bozeman42/zotn
+
+
 ### Day 31-32: April 11-12, 2018
 
 **Today's Progress**: I wanted to try setting up passport.js from scratch using the Local Strategy (username and password, maintained by your server). I have used passport before, but I used a starter project that had it already set up, and I didn't have an understanding of what was going on at the time. I spent a bunch of time yesterday with [the docs](http://www.passportjs.org/docs/authenticate/) and started to set up a repository. I finished it up with a very small angular app to test it out. It's pretty neat!
