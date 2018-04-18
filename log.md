@@ -2,6 +2,15 @@
 ---
 
 
+### Day 37: April 17, 2018
+
+**Today's Progress**: Read some ruby stuff and made a simple guessing game to get some of the basics. Guess a number from 1-10! Earth shattering. :)
+
+**Thoughts:** 
+
+**Link to work:** https://github.com/bozeman42/ruby-simple-guessing-game
+
+
 ### Day 35-36: April 15-16, 2018
 
 **Today's Progress**: I saw a video talking about this equation used to describe population growth year to year and it was pretty cool. I made a repo that shows the levels where the population settles with a given growth factor. From 0-1 the population dies off, then above that it settles at a certain value, then at some point, it starts alternating between two values, then four, doubling repeatedly, faster and faster. At a certain point, the doubling would go to infinity, but instead it goes bananas into chaos (in the mathematical sense). If you want you can check it out here. The second day I added a zoom feature so you can zoom in by click and dragging over the portion you want to see closer. You can only zoom so much because of the limitations of javascript numbers. 
