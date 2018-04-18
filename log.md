@@ -17,6 +17,7 @@
 
 I started out writing it in p5.js, but then decided to use canvas instead as it seemed a little more like I could use it as I please.
 
+![zoomed image of logistic map function graph](https://raw.githubusercontent.com/bozeman42/100-days-of-code/master/Screen%20Shot%202018-04-16%20at%207.49.03%20PM.png)
 **Thoughts:** 
 
 **Link to work:** https://github.com/bozeman42/logistic-map
