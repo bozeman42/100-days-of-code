@@ -2,6 +2,15 @@
 ---
 
 
+### Day 38: April 18, 2018
+
+**Today's Progress**: Worked on the Code Academy rails course, but on my own machine environment, as the course's environment was somewhat broken. An error was cropping up repeatedly and research indicates that it is a bug that was fixed in an update years ago, but the environment used at CA is old.
+
+**Thoughts:** I wasn't getting much out of the basic ruby tutorial - I know what a variable is! I looked at Ruby on Rails today. Much more interesting! It's very similar to C# .NET MVC in concept, though not at all similar in syntax! A benefit in my opinion is that so far the things I've attempted to build have worked just as well on my PC and my Mac. .NET I feel pretty chained to my Windows machine even though VS is available for MacOS. There are library differences that break my ability to work on the same project on both machines.
+
+**Link to work:** https://github.com/bozeman42/rails-CA-app
+
+
 ### Day 37: April 17, 2018
 
 **Today's Progress**: Read some ruby stuff and made a simple guessing game to get some of the basics. Guess a number from 1-10! Earth shattering. :)
