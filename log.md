@@ -2,6 +2,50 @@
 ---
 
 
+### Day 42: April 21-May 6
+
+**Today's Progress**: In this time I did a number of things. I resolved the multi-user drawing issue in the sockets application by creating a new canvas for each user. I'm not sure how sustainable that is overall. I think it would be good to add 'rooms' to the application to limit the number of users each drawing has. I also tested the application on a digital ocean droplet and it worked great over the internet! It was quite fun to see. I killed the droplet as I am on a tight budget right now and I'm not sure how having the application running for a long time would affect a server so I'm not comfortable putting it on the same server as my portfolio site. I think building in a 'reset' functionality to the app would be a good thing.
+
+I also made progress on Zombies of the North. I built the shop functionality. I moved all of the asset validation for the shop to the server, so it will send whatever you scan, but will only execute purchases if it is an appropriate asset that is not owned already and the user has sufficient credits. Learned / reminded myself of some of the details of using promises in building this feature.
+
+I attended an IoT conference IoTFuse MN. I received a Particle.io Photon microcontroller and I have been playing with it a bit. I built a test server that gets sensor data from the Photon and displays it on a web page. Super cool!
+
+**Thoughts:** I'm going to call all this time one day of the challenge. I did code quite a bit in this time, but I also needed to take some mental health time. I'm on a job search and it is sometimes demoralizing. I love coding, even when it is hard, even when it feels like I've hit a brick wall. The challenge is invigorating. I can't say the same thing for job hunting! I had some dark times these weeks, but I'm climbing my way out of it. Making this post and continuing with the challenge will do wonders. I'm not particularly interested in whether this is 'allowed' for the challenge.
+
+**Link to work:**: 
+* https://github.com/bozeman42/sockets-shared-drawing
+* https://github.com/bozeman42/zotn/
+* https://github.com/bozeman42/particle-test
+
+### Day 41: April 20, 2018
+
+**Today's Progress**: Added HTML5 Canvas to the sockets mouse position test and turned it into a shared drawing app. 
+
+**Thoughts:** Super fun, but some problems with people drawing at the same time. Lines are drawn between the different users current drawing locations.
+
+**Link to work:**: https://github.com/bozeman42/sockets-shared-drawing
+
+
+### Day 40: April 20, 2018
+
+**Today's Progress**: Learned about sockets! Specifically [socket.io](https://socket.io/). I went through a tutorial which produced a simple chat application, then I did an experiment with broadcasting client mouse position to other clients and displaying the other users' mouse positions with a div that moves to where their mouse is on their screen.
+
+**Thoughts:** Sockets are pretty fun! The instantaneous connection of different clients gives it a 'magical' feeling.
+
+**Link to work:**: 
+* https://github.com/bozeman42/socket-chat
+* https://github.com/bozeman42/sockets-shared-drawing
+
+
+### Day 39: April 19, 2018
+
+**Today's Progress**: Wanted to try representing a hand of cards with CSS. It got to an okay place, though not perfect.
+
+**Thoughts:** What I would want is to have a natural curve of holding a hand of cards, but I think that's a bit beyond my CSS-fu at this time. I'm pretty pleased with what I came up with nonetheless.
+
+**Link to work:**: https://github.com/bozeman42/hand-of-cards-css
+
+
 ### Day 38: April 18, 2018
 
 **Today's Progress**: Worked on the Code Academy rails course, but on my own machine environment, as the course's environment was somewhat broken. An error was cropping up repeatedly and research indicates that it is a bug that was fixed in an update years ago, but the environment used at CA is old.
