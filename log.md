@@ -10,7 +10,7 @@ I also made progress on Zombies of the North. I built the shop functionality. I 
 
 I attended an IoT conference IoTFuse MN. I received a Particle.io Photon microcontroller and I have been playing with it a bit. I built a test server that gets sensor data from the Photon and displays it on a web page. Super cool!
 
-**Thoughts:** I'm going to call all this time one day of the challenge. I did code quite a bit in this time, but I also needed to take some mental health time. I'm on a job search and it is sometimes demoralizing. I love coding, even when it is hard, even when it feels like I've hit a brick wall. The challenge is invigorating. I can't say the same thing for job hunting! I had some dark times these weeks, but I'm climbing my way out of it. Making this post and continuing with the challenge will do wonders. I'm not particularly interested in whether this is 'allowed' for the challenge.
+**Thoughts:** I'm going to call all this time one day of the challenge. I did code quite a bit in this time, but I also needed to take some self-care time. I'm on a job search and it is sometimes demoralizing. I love coding, even when it is hard, even when it feels like I've hit a brick wall. The challenge is invigorating. I can't say the same thing for job hunting! I had some dark times these weeks, but I'm climbing my way out of it. Making this post and continuing with the challenge will do wonders. I'm not particularly interested in whether this is 'allowed' for the challenge.
 
 **Link to work:**: 
 * https://github.com/bozeman42/sockets-shared-drawing
